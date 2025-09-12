@@ -12,10 +12,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          color: Colors.grey[200], // фон серый (как на изображении)
+          color: Colors.grey[200], 
           child: Column(
             children: [
-              // Верхняя синяя полоса с текстом
+
               Container(
                 height: 60,
                 color: Colors.blue,
@@ -30,10 +30,8 @@ class MyApp extends StatelessWidget {
                 ),
               ),
 
-              // Пространство между заголовком и блоками
               SizedBox(height: 10),
 
-              // Три зелёных блока в одной строке
               Row(
                 children: [
                   Expanded(
@@ -63,20 +61,16 @@ class MyApp extends StatelessWidget {
                 ],
               ),
 
-              // Пространство между блоками
               SizedBox(height: 10),
 
-              // Длинный зелёный блок
               Container(
                 height: 60,
                 color: Colors.green,
                 margin: EdgeInsets.symmetric(horizontal: 10),
               ),
 
-              // Пространство
               SizedBox(height: 10),
 
-              // Три коротких зелёных блока
               Row(
                 children: [
                   Expanded(
