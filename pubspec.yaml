@@ -1,16 +1,14 @@
-name: flutter_application_1
-description: A Flutter app with Supabase and SharedPreferences
-publish_to: 'none'
+name: messages_app
+description: Приложение для отправки сообщений в Supabase.
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.17.0 <3.0.0'  # или '>=2.18.0 <4.0.0' — в зависимости от вашей версии
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  supabase_flutter: ^1.10.9   # Последняя версия v1 (стабильная, не требует Dart 3)
-  shared_preferences: ^2.1.1  # Совместима с Flutter 3.x
+  supabase_flutter: ^1.0.0
 
 dev_dependencies:
   flutter_test:
