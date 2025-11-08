@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  supabase_flutter: ^1.10.9   # Последняя версия v1 (стабильная, не требует Dart 3)
+  supabase_flutter: ^2.8.0   # Последняя версия v1 (стабильная, не требует Dart 3)
   shared_preferences: ^2.1.1  # Совместима с Flutter 3.x
 
 dev_dependencies:
